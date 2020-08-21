@@ -1,0 +1,297 @@
+/*
+*=============================
+* stylessheet 
+*=============================
+*/
+
+
+*{
+
+    padding:0;
+    margin:0;
+    list-style: 0;
+    outline: 0;
+    border: none;
+
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            -box-sizing: border-box;
+            
+          
+}
+    
+
+
+/*
+*CABEÇALHO
+*/
+header
+{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    font-size: 15pt;
+    font-weight: bolder;
+    background-color: rgba(82, 82, 82, 0.0441);
+}
+
+
+h2
+{
+    color: rgba(46, 50, 54, 0.883);
+    margin-left: 25%;
+}
+
+/*
+*SEÇÃO PARA AS PÁGINAS 'NOVO', 'LISTAR', 'ATUALIZAR'
+*/
+section
+{
+   
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 15pt;
+    background-color: rgba(82, 82, 82, 0.0441);
+}
+
+/*
+*RODAPÉ
+ */
+footer
+{
+    bottom: 0pt;
+    
+    margin-left: 0%;
+    margin-right: 10%;
+    position: fixed;
+
+    
+}
+
+/*
+*IMAGENS
+ */
+#logo
+{    
+    position: relative;    
+    margin-left: 10%;    
+    
+    height: 40%;
+    width: 50%;
+}
+#img_gp
+{
+    height: 60%;
+    width: 70%;
+    margin-left: 15%; 
+
+}
+
+
+/*
+*CLASSE DOS BOTÕES 
+*
+*PÁGINA INICIAL
+ */
+
+.bt_inicial
+{
+    
+    height: 50pt;   
+    width: 80pt; 
+    border-radius: 45%;
+
+    
+    background-color: rgba(255, 255, 255, 0.911);
+    border-color: rgba(27, 27, 27, 0.541);
+   
+    border-top: rgba(26, 25, 25, 0.941) solid 0.5pt;
+    border-left: rgba(26, 25, 25, 0.941) solid 0.5pt;
+    border-right: rgba(26, 25, 25, 0.941) solid 3pt;
+    border-bottom: rgba(26, 25, 25, 0.941) solid 3pt;
+
+
+
+    color: dimgray;
+    font-size: 15pt;
+    font-weight: bolder;
+
+}
+/*
+* PÁGINAS CADASTRAR, ATUALIZAR
+ */
+.bt_cadastrar
+{
+    
+    height: 40pt;   
+    width: 80pt; 
+    border-radius: 35%;
+
+    
+    background-color: rgba(255, 255, 255, 0.911);
+    border-color: rgba(27, 27, 27, 0.541);
+   
+    border-top: rgba(26, 25, 25, 0.941) solid 0.5pt;
+    border-left: rgba(26, 25, 25, 0.941) solid 0.5pt;
+    border-right: rgba(26, 25, 25, 0.941) solid 3pt;
+    border-bottom: rgba(26, 25, 25, 0.941) solid 3pt;
+
+
+
+    color: dimgray;
+    font-size: 15pt;
+    font-weight: bolder;
+
+}
+/*
+* PÁGINAS LISTA
+ */
+.bt_listar2
+{
+    height: 20pt;   
+    width: 70pt; 
+    border-radius: 95%;
+
+  
+    
+    background-color: rgba(255, 255, 255, 0.911);
+    border-color: rgba(27, 27, 27, 0.541);
+   
+    border-top: rgba(26, 25, 25, 0.941) solid 0.5pt;
+    border-left: rgba(26, 25, 25, 0.941) solid 0.5pt;
+    border-right: rgba(26, 25, 25, 0.941) solid 3pt;
+    border-bottom: rgba(26, 25, 25, 0.941) solid 3pt;
+
+
+
+    color: dimgray;
+    font-size: 12pt;
+    font-weight: bolder;
+
+}
+
+/*
+*IDS DOS BOTÕES
+*
+*PÁGINA INICIAL
+ */
+#bts_inicial
+{
+    margin-left: 30%;
+    margin-right: 20%;
+}
+/*
+*PÁGINA LISTAR
+ */
+#bt_listar
+{    
+    height: 30pt;   
+    width: 50pt; 
+    border-radius: 25%;
+
+    margin-left: 90%;
+    margin-right: 20%;
+    
+    background-color: rgba(255, 255, 255, 0.911);
+    border-color: rgba(27, 27, 27, 0.541);
+   
+    border-top: rgba(26, 25, 25, 0.941) solid 0.5pt;
+    border-left: rgba(26, 25, 25, 0.941) solid 0.5pt;
+    border-right: rgba(26, 25, 25, 0.941) solid 3pt;
+    border-bottom: rgba(26, 25, 25, 0.941) solid 3pt;
+
+
+
+    color: dimgray;
+    font-size: 15pt;
+    font-weight: bolder;
+
+}
+/*
+*PÁGINA LISTAR
+ */
+#bt_pesquisar_id
+{
+    height: 30pt;   
+    width: 100pt; 
+    border-radius: 25%;
+
+    
+    
+    background-color: rgba(255, 255, 255, 0.911);
+    border-color: rgba(27, 27, 27, 0.541);
+   
+    border-top: rgba(26, 25, 25, 0.941) solid 0.01pt;
+    border-left: rgba(26, 25, 25, 0.941) solid 0.01pt;
+    border-right: rgba(26, 25, 25, 0.941) solid 2pt;
+    border-bottom: rgba(26, 25, 25, 0.941) solid 2pt;
+
+
+
+    color: dimgray;
+    font-size: 12pt;
+    font-weight: bolder;
+}
+
+/*
+*CAMPO TEXTO
+*
+ */
+input[type="text"]
+{
+    height: 20pt;
+    width: 250pt;
+    background-color: rgba(2, 2, 2, 0.115);
+    font-size: 12pt;
+    font-weight: normal;
+}
+/*
+*CAMPO DATA
+*
+ */
+input[type="date"]
+{
+    height: 20pt;
+    width: 150pt;
+    font-size: 12pt;
+    font-weight: normal;
+    background-color: rgba(2, 2, 2, 0.115);
+}
+/*
+*CAMPO CARGO
+*
+ */
+
+select
+{
+    height: 20pt;
+    width: 150pt;
+    font-size: 12pt;
+    font-weight: normal;
+    background-color: rgba(2, 2, 2, 0.115);
+}
+/*
+*DIV CADASTRAR
+*
+ */
+
+#d_cadastar 
+{
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+/*
+*TABELA LISTAR
+*
+ */
+table{
+    border-collapse: collapse;
+    border: solid rgba(70, 69, 69, 0.681) 1pt;
+}
+
+td,th{padding: 4pt 10pt;}
+tr:nth-child(even){background-color:  rgba(70, 69, 69, 0.681);}
+tr:nth-child(odd){background-color:  rgba(194, 189, 189, 0.349);}
